@@ -1,8 +1,8 @@
-10000|Harry Potter and the Sorcerer's Stone|J.K. Rowling|false|null|null|null|null|null
-10002|Harry Potter and the Prisoner of Azkaban|J.K. Rowling|false|null|null|null|null|null
-10003|A Brief History of Time|Stephen Hawking|false|null|null|null|null|null
+10000|Harry Potter and the Sorcerer's Stone|J.K. Rowling|true|Teacher|5000|Lorie Moore|Feb-13-2018|Feb-20-2018
+10002|Harry Potter and the Prisoner of Azkaban|J.K. Rowling|true|Teacher|5000|Lorie Moore|Feb-13-2018|Feb-20-2018
+10003|A Brief History of Time|Stephen Hawking|true|Teacher|5000|Lorie Moore|Feb-13-2018|Feb-20-2018
 10004|Leave it to Psmith|P.G. Wodehouse|false|null|null|null|null|null
-10005|Emma|Jane Austen|false|null|null|null|null|null
+10005|Emma|Jane Austen|true|Student|1005|Neha Deshpande|Feb-13-2018|Feb-18-2018
 10006|Emma|Jane Austen|false|null|null|null|null|null
 10007|Murder on the Orient Express|Agatha Christie|false|null|null|null|null|null
 10008|Five Little Pigs|Agatha Christie|false|null|null|null|null|null

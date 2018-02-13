@@ -1399,7 +1399,7 @@ public class Library extends Application {
 						for (Student student : students) {
 							if (student.id.get().equals(borrowerIdField.getText())) {
 								System.out.println(student.id.get() + " has " + student.bookIds.size() +" books.");
-								if (student.bookIds.size() < student.BOOK_LIMIT) {
+								if (student.bookIds.size() <= student.BOOK_LIMIT) {
 									int index = student.bookIds.size();
 									System.out.println("adding book to index: " + index);
 									student.bookIds.add(index, new SimpleStringProperty(bookIdField.getText()));
@@ -1423,7 +1423,7 @@ public class Library extends Application {
 					else if (borrowerType.equals("Teacher")) {
 						for (Teacher teacher : teachers) {
 							if (teacher.id.get().equals(borrowerIdField.getText())) {
-								if (teacher.bookIds.size() < teacher.BOOK_LIMIT) {
+								if (teacher.bookIds.size() <= teacher.BOOK_LIMIT) {
 									int index = teacher.bookIds.size();
 									teacher.bookIds.add(index, new SimpleStringProperty(bookIdField.getText()));
 									book.isCheckedOut = true;
